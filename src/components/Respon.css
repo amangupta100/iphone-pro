@@ -1,0 +1,123 @@
+*{
+    overflow-x: hidden;
+}
+@media screen and (max-width:890px){
+   .nav .part2{
+        display: none;
+    }
+    .nav{
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .nav .part3{
+        gap: 39px;
+    }
+    
+}
+@media screen and (max-width:769px){
+   .page1 .t-cont{
+        width: 54%;
+    }
+    .t-cont p{
+        font-size: 17px;
+    }
+    .t-cont .feature{
+        font-size: 45px;
+    }
+    .page1{
+        gap: 22px;height: 92vh;
+    }
+    .page2{
+        height: 98vh;
+    }
+    .page2 .t-cont{
+        width: 55vw;
+    }
+    .page3 img{
+        width: 33vw;
+    }
+}
+@media screen and (max-width:833px){
+.nav .hmb{
+    visibility: visible;
+}
+.page1 .t-cont{
+width: 54%;
+}
+.t-cont p{
+    font-size: 16px;
+}
+}
+/* for 426px devices only*/
+@media screen and (max-width:426px){
+    .page1{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .page1 .t-cont{
+        width: 100vw;height: 48vh;
+    }
+    .page1 .d3-cont{
+        width: 100%;height: 92vh;left:8.8%;
+       bottom: -30%;
+    }
+    
+    .t-cont p{
+        font-size: 14px;
+    }
+   .page2 .t-cont{
+        width: 60vw;
+    }
+   .page2 .t-cont .base{
+        font-size: 36px;
+    } 
+    .page2 p{
+        font-size: 14px;
+    }
+    .page1 .d3-cont{
+        scale: 0.7;translate: -4000;
+    }
+    .page2 {
+        height:90vh;
+    }
+    .page2 a{
+        font-size: 15px;
+    }
+    .page2 .t-cont .rupee{
+        font-size: 14px;
+    }
+    .page3 img{
+        width: 62vw;
+    }
+    .page2{
+        justify-content: center;
+    }
+    .page2 .t-cont{
+        height: 90vh;
+        width: 100vw;align-items: center;
+        position: relative;justify-content: center;
+        align-items: center;
+    }
+    .nav .hmb-cont{
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width:376px){
+    .nav .hmb-cont a{
+        font-size: 22px;
+    }
+    .page2{
+        justify-content: center;
+    }
+    .page2 .t-cont{
+        height: 90vh;
+        width: 100vw;align-items: center;
+        position: relative;justify-content: center;
+        align-items: center;
+    }
+    .page3 .img-cont img{
+        width: 62vw;
+    }
+}
