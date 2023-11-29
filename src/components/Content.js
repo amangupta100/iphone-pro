@@ -6,10 +6,8 @@ import { Environment, OrbitControls} from '@react-three/drei'
 import { Model } from '../assets/3d/Scene'
 import gsap from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
-import { useF} from 'react';
 import phone from '../assets/images/iphone-hand-83782827.png'
-import { Swiper,SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+
 
 export default function Content() {
   const SectionRef = useRef()
@@ -88,22 +86,91 @@ className="d3-cont" ref={SectionRef}>
   
   </p>
   <div className="btn">
-    <a href="#" className='text-sm text-white bg-blue-500 px-6 py-2 rounded-3xl'>Try me!</a>
+    <a href="#" className='try'>Try me!</a>
         </div>
 
 </div>
 
-<div className="img-cont">
   <img src={phone} alt="" />
-</div>
 
 </div>
 
 <div className="page4">
-<Swiper slidesPerView={3}>
-  <SwiperSlide></SwiperSlide>
-  <h1 className='text-2xl text-red-400'>amaanan</h1>
-</Swiper>
+<p className="cont">
+*Instant savings, otherwise referred to as instant cashback, is available with the purchase of an eligible product for qualifying HDFC Bank Credit Cards and EasyEMI Credit Cards only. Minimum transaction value of ₹10001.00 applies. <label htmlFor="" className='click'>Click here</label> to see instant savings amounts and eligible devices. Instant savings is available for up to two orders per rolling 90-day period with an eligible card. Card eligibility is subject to terms and conditions between you and your card-issuing bank. Total transaction value is calculated after any trade-in credit or eligible discount applied. Any subsequent order adjustment(s) or cancellation(s) may result in instant savings being recalculated, and any refund may be adjusted to account for instant savings clawback; this may result in no refund being made to you. Offer may be revised or withdrawn at any time without any prior notice.<br/> <label htmlFor="" className='click'>Additional terms apply.</label>. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be combined for instant savings.<br/><br/>
+‡No Cost EMI is available with the purchase of an <label htmlFor="" className='click'>eligible product</label> made using eligible cards on 3- or 6-month tenures from most leading banks. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your bank, subject to your bank’s terms and conditions. Minimum order spend applies as per your card-issuing bank threshold. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card-issuing bank. Offer may be revised or withdrawn at any time without any prior notice. <label htmlFor="" className='click'>Additional terms apply.</label><br /><br />
+Representative example: Based on a 6-month tenure. ₹79900.00 total cost includes 15% p.a. and No Cost EMI savings of ₹3380.00, paid over 6 months as six monthly payments of ₹13317.00. <br /><br />
+A subscription is required for Apple TV+.
+</p>
+
+<div className="footer">
+ 
+<div className="p" id='p-1'>
+  <h3 className='ht'>Shop and Learn <label htmlFor="" className='add' onClick={()=>{
+    console.log("Shop Clicked")
+  }}>+</label> </h3><hr className="cont" />
+  <a href="">Store</a>
+  <a href="">Mac</a>
+  <a href="">iPad</a>
+  <a href="">iPhone</a>
+  <a href="">Watch</a>
+  <a href="">AirPods</a>
+  <a href="">TV & Home</a>
+  <a href="">AirTag</a>
+  <a href="">Accessories</a>
+  <a href="">Gift Cards</a>
+
+<div className="shop_cont">
+<a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+</div>
+</div>
+
+
+<div className="p" id='p-2'>
+<h3 className='ht'>Account <label htmlFor="" className='add'>+</label> </h3><hr className="cont" />
+  <a href="">Manage Your Apple ID</a>
+  <a href="">Apple Store Account</a>
+  <a href="">iCloud.com</a>
+
+</div>
+<div className="p" id='p-3'>
+<h3 className='ht'>Apple Store <label htmlFor="" className='add'>+</label> </h3><hr className="cont" />
+  <a href="">Find a Store</a>
+  <a href="">Genius Bar</a>
+  <a href="">Today at Apple</a>
+  <a href="">Apple Camp</a>
+  <a href="">Apple TradeIn</a>
+  <a href="">Ways to Buy</a>
+  <a href="">Recycling Programme</a>
+  <a href="">Order Status</a>
+  <a href="">Shopping Help</a>
+
+</div>
+<div className="p" id='p-4'>
+<h3 className='ht'>For Business <label htmlFor="" className='add'>+</label> </h3><hr className="cont" />
+  <a href="">Apple Business</a>
+  <a href="">Shop for Business</a>
+
+</div>
+<div className="p" id='p-5'>
+<h3 className='ht'>Apple Values <label htmlFor="" className='add' onClick={()=>{
+  console.log("AMan")
+}}>+</label> </h3><hr className="cont" />
+  <a href="">Accessibility</a>
+  <a href="">Eduacation</a>
+  <a href="">Environment</a>
+  <a href="">Privacy</a>
+  <a href="">Supplier Responsiblity</a>
+
+</div>
+
+</div>
+
+<p className='more_'>
+More ways to shop: <label htmlFor="" className='click'>Find an Apple Store</label> or <label htmlFor="" className='click'>other retailer</label> near you. Or call 000800 040 1966.
+</p>
+<h1 className="designed">Designed by Aman Gupta</h1>
+
 </div>
 
 </div>

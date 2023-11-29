@@ -34,8 +34,42 @@
         width: 55vw;
     }
     .page3 img{
-        width: 33vw;
+        width: 38vw;
     }
+    .store-p{
+        width: 100%;height: 100vh;background-color:white;
+        display: flex;flex-direction: column;
+        position: absolute;justify-content: space-between;
+        top: 0%;right: 0%;z-index: 2;padding:60px 68px ;visibility: hidden; 
+      }
+      .page4{
+        height: 90vw;
+        padding: 9px 10px;
+      }
+      .page4 .footer{
+     width: 99vw;display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+     height: 30vh;
+      }
+      .footer #p-1{
+    
+      }
+      .footet .p{
+        align-items: center;
+      }
+      .footer .p .add{
+       position: absolute;right: 5%;
+       color: grey;align-items: center;
+       font-size: 17px;
+      }
+      .footer .cont{
+        visibility: visible;
+      }
+      .page4 .footer a{
+        display: none;
+      }
 }
 @media screen and (max-width:833px){
 .nav .hmb{
@@ -88,7 +122,7 @@ width: 54%;
         font-size: 14px;
     }
     .page3 img{
-        width: 62vw;
+        width: 67vw;
     }
     .page2{
         justify-content: center;
@@ -102,8 +136,18 @@ width: 54%;
     .nav .hmb-cont{
         padding: 50px;
     }
+    .page4 {
+        height: 145vh;
+    }
+    .page4 .footer{
+        
+    }
 }
-
+@media screen and(max-width:376px){
+    .page4{
+        height:193vh;
+    }
+}
 @media screen and (max-width:376px){
     .nav .hmb-cont a{
         font-size: 22px;
