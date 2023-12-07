@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Respon.css'
 import {motion} from 'framer-motion'
+import {HashLoader} from 'react-spinners'
 
 export default function Navbar() {
   return (
     <div>
+
       <div className="nav">
       <img width="20" height="20" className='logo' src="https://img.icons8.com/ios-glyphs/30/mac-os.png" alt="mac-os"/>
 

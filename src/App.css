@@ -5,6 +5,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;overflow-x:hidden;
 }
+
 .page1{
   width: 100vw;height:100vh;background-color: black;
   display: flex;gap: 90px;
@@ -24,9 +25,7 @@
   font-size: 12px;
   font-weight: 400;color: black;
 }
-.nav .store-p {
 
-}
 .nav .part3{
   display: flex;gap: 28px;margin: 0px 18px;
 }
@@ -158,15 +157,12 @@ color:royalblue;
   text-decoration: underline;color:#6e6e73 ;font-weight: bold;
 }
 .page4 .footer{
-  width: 70vw;height: 56vh;
+  width: 70vw;height: 400px;
  display: flex;justify-content: space-between;
 
 }
-.footer .shop_cont{
-display: flex;
-flex-direction: column;
-width: 45vw;display: none;
-height: 300px;background-color: bisque;
+.footer .shop_cont a{
+  color: black;font-size: 13px;
 }
 .footer a{
   color: black;font-size: 12px;letter-spacing: 0.8px;

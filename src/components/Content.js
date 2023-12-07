@@ -7,6 +7,7 @@ import { Model } from '../assets/3d/Scene'
 import gsap from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import phone from '../assets/images/iphone-hand-83782827.png'
+import Navbar from './Navbar'
 
 
 export default function Content() {
@@ -28,8 +29,11 @@ tl.to(".d3-cont",{
 },[])
   return (
     <div className=''>
+
       
+      <Navbar/>
      <div className="page1">
+
     
      <div className="t-cont">
         <h1 className="new">New</h1>
@@ -106,9 +110,7 @@ A subscription is required for Apple TV+.
 <div className="footer">
  
 <div className="p" id='p-1'>
-  <h3 className='ht'>Shop and Learn <label htmlFor="" className='add' onClick={()=>{
-    console.log("Shop Clicked")
-  }}>+</label> </h3><hr className="cont" />
+  <h3 className='ht'>Shop and Learn <label htmlFor="" className='add' >+</label> </h3><hr className="cont" />
   <a href="">Store</a>
   <a href="">Mac</a>
   <a href="">iPad</a>
@@ -120,8 +122,11 @@ A subscription is required for Apple TV+.
   <a href="">Accessories</a>
   <a href="">Gift Cards</a>
 
-<div className="shop_cont">
-<a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+<div className="shop_cont shop_cont_vis">
+<a href="">Store</a>
+<a href="">Mac</a>
+<a href="">iPad</a>
+<a href="">iPhone</a>
 </div>
 </div>
 
